@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1AEADA204EC49A008960E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AEAD9204EC49A008960E3 /* AppDelegate.swift */; };
+		3F1AEADC204EC49A008960E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AEADB204EC49A008960E3 /* ViewController.swift */; };
+		3F1AEADF204EC49A008960E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1AEADD204EC49A008960E3 /* Main.storyboard */; };
+		3F1AEAE2204EC49A008960E3 /* Porteclair.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AEAE0204EC49A008960E3 /* Porteclair.xcdatamodeld */; };
+		3F1AEAE4204EC49A008960E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1AEAE3204EC49A008960E3 /* Assets.xcassets */; };
+		3F1AEAE7204EC49A008960E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1AEAE5204EC49A008960E3 /* LaunchScreen.storyboard */; };
+		3F1AEAF2204EC49B008960E3 /* PorteclairTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AEAF1204EC49B008960E3 /* PorteclairTests.swift */; };
+		3F1AEAFD204EC49B008960E3 /* PorteclairUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AEAFC204EC49B008960E3 /* PorteclairUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F1AEAEE204EC49B008960E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1AEACE204EC49A008960E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1AEAD5204EC49A008960E3;
+			remoteInfo = Porteclair;
+		};
+		3F1AEAF9204EC49B008960E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1AEACE204EC49A008960E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1AEAD5204EC49A008960E3;
+			remoteInfo = Porteclair;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F1AEAD6204EC49A008960E3 /* Porteclair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Porteclair.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1AEAD9204EC49A008960E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F1AEADB204EC49A008960E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F1AEADE204EC49A008960E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F1AEAE1204EC49A008960E3 /* Porteclair.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Porteclair.xcdatamodel; sourceTree = "<group>"; };
+		3F1AEAE3204EC49A008960E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F1AEAE6204EC49A008960E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F1AEAE8204EC49A008960E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1AEAED204EC49B008960E3 /* PorteclairTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PorteclairTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1AEAF1204EC49B008960E3 /* PorteclairTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorteclairTests.swift; sourceTree = "<group>"; };
+		3F1AEAF3204EC49B008960E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1AEAF8204EC49B008960E3 /* PorteclairUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PorteclairUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1AEAFC204EC49B008960E3 /* PorteclairUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorteclairUITests.swift; sourceTree = "<group>"; };
+		3F1AEAFE204EC49B008960E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1AEAD3204EC49A008960E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1AEAEA204EC49B008960E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1AEAF5204EC49B008960E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1AEACD204EC49A008960E3 = {
+			isa = PBXGroup;
+			children = (
+				3F1AEAD8204EC49A008960E3 /* Porteclair */,
+				3F1AEAF0204EC49B008960E3 /* PorteclairTests */,
+				3F1AEAFB204EC49B008960E3 /* PorteclairUITests */,
+				3F1AEAD7204EC49A008960E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1AEAD7204EC49A008960E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1AEAD6204EC49A008960E3 /* Porteclair.app */,
+				3F1AEAED204EC49B008960E3 /* PorteclairTests.xctest */,
+				3F1AEAF8204EC49B008960E3 /* PorteclairUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1AEAD8204EC49A008960E3 /* Porteclair */ = {
+			isa = PBXGroup;
+			children = (
+				3F1AEAD9204EC49A008960E3 /* AppDelegate.swift */,
+				3F1AEADB204EC49A008960E3 /* ViewController.swift */,
+				3F1AEADD204EC49A008960E3 /* Main.storyboard */,
+				3F1AEAE3204EC49A008960E3 /* Assets.xcassets */,
+				3F1AEAE5204EC49A008960E3 /* LaunchScreen.storyboard */,
+				3F1AEAE8204EC49A008960E3 /* Info.plist */,
+				3F1AEAE0204EC49A008960E3 /* Porteclair.xcdatamodeld */,
+			);
+			path = Porteclair;
+			sourceTree = "<group>";
+		};
+		3F1AEAF0204EC49B008960E3 /* PorteclairTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1AEAF1204EC49B008960E3 /* PorteclairTests.swift */,
+				3F1AEAF3204EC49B008960E3 /* Info.plist */,
+			);
+			path = PorteclairTests;
+			sourceTree = "<group>";
+		};
+		3F1AEAFB204EC49B008960E3 /* PorteclairUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1AEAFC204EC49B008960E3 /* PorteclairUITests.swift */,
+				3F1AEAFE204EC49B008960E3 /* Info.plist */,
+			);
+			path = PorteclairUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1AEAD5204EC49A008960E3 /* Porteclair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1AEB01204EC49B008960E3 /* Build configuration list for PBXNativeTarget "Porteclair" */;
+			buildPhases = (
+				3F1AEAD2204EC49A008960E3 /* Sources */,
+				3F1AEAD3204EC49A008960E3 /* Frameworks */,
+				3F1AEAD4204EC49A008960E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Porteclair;
+			productName = Porteclair;
+			productReference = 3F1AEAD6204EC49A008960E3 /* Porteclair.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F1AEAEC204EC49B008960E3 /* PorteclairTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1AEB04204EC49B008960E3 /* Build configuration list for PBXNativeTarget "PorteclairTests" */;
+			buildPhases = (
+				3F1AEAE9204EC49B008960E3 /* Sources */,
+				3F1AEAEA204EC49B008960E3 /* Frameworks */,
+				3F1AEAEB204EC49B008960E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1AEAEF204EC49B008960E3 /* PBXTargetDependency */,
+			);
+			name = PorteclairTests;
+			productName = PorteclairTests;
+			productReference = 3F1AEAED204EC49B008960E3 /* PorteclairTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F1AEAF7204EC49B008960E3 /* PorteclairUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1AEB07204EC49B008960E3 /* Build configuration list for PBXNativeTarget "PorteclairUITests" */;
+			buildPhases = (
+				3F1AEAF4204EC49B008960E3 /* Sources */,
+				3F1AEAF5204EC49B008960E3 /* Frameworks */,
+				3F1AEAF6204EC49B008960E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1AEAFA204EC49B008960E3 /* PBXTargetDependency */,
+			);
+			name = PorteclairUITests;
+			productName = PorteclairUITests;
+			productReference = 3F1AEAF8204EC49B008960E3 /* PorteclairUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1AEACE204EC49A008960E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Jeremy;
+				TargetAttributes = {
+					3F1AEAD5204EC49A008960E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3F1AEAEC204EC49B008960E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F1AEAD5204EC49A008960E3;
+					};
+					3F1AEAF7204EC49B008960E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F1AEAD5204EC49A008960E3;
+					};
+				};
+			};
+			buildConfigurationList = 3F1AEAD1204EC49A008960E3 /* Build configuration list for PBXProject "Porteclair" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F1AEACD204EC49A008960E3;
+			productRefGroup = 3F1AEAD7204EC49A008960E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1AEAD5204EC49A008960E3 /* Porteclair */,
+				3F1AEAEC204EC49B008960E3 /* PorteclairTests */,
+				3F1AEAF7204EC49B008960E3 /* PorteclairUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1AEAD4204EC49A008960E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1AEAE7204EC49A008960E3 /* LaunchScreen.storyboard in Resources */,
+				3F1AEAE4204EC49A008960E3 /* Assets.xcassets in Resources */,
+				3F1AEADF204EC49A008960E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1AEAEB204EC49B008960E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1AEAF6204EC49B008960E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1AEAD2204EC49A008960E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1AEADC204EC49A008960E3 /* ViewController.swift in Sources */,
+				3F1AEAE2204EC49A008960E3 /* Porteclair.xcdatamodeld in Sources */,
+				3F1AEADA204EC49A008960E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1AEAE9204EC49B008960E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1AEAF2204EC49B008960E3 /* PorteclairTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1AEAF4204EC49B008960E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1AEAFD204EC49B008960E3 /* PorteclairUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F1AEAEF204EC49B008960E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1AEAD5204EC49A008960E3 /* Porteclair */;
+			targetProxy = 3F1AEAEE204EC49B008960E3 /* PBXContainerItemProxy */;
+		};
+		3F1AEAFA204EC49B008960E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1AEAD5204EC49A008960E3 /* Porteclair */;
+			targetProxy = 3F1AEAF9204EC49B008960E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F1AEADD204EC49A008960E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1AEADE204EC49A008960E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F1AEAE5204EC49A008960E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1AEAE6204EC49A008960E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F1AEAFF204EC49B008960E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F1AEB00204EC49B008960E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1AEB02204EC49B008960E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXB78HG89C;
+				INFOPLIST_FILE = Porteclair/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Porteclair.Porteclair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F1AEB03204EC49B008960E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXB78HG89C;
+				INFOPLIST_FILE = Porteclair/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Porteclair.Porteclair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F1AEB05204EC49B008960E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXB78HG89C;
+				INFOPLIST_FILE = PorteclairTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Porteclair.PorteclairTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porteclair.app/Porteclair";
+			};
+			name = Debug;
+		};
+		3F1AEB06204EC49B008960E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXB78HG89C;
+				INFOPLIST_FILE = PorteclairTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Porteclair.PorteclairTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porteclair.app/Porteclair";
+			};
+			name = Release;
+		};
+		3F1AEB08204EC49B008960E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXB78HG89C;
+				INFOPLIST_FILE = PorteclairUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Porteclair.PorteclairUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Porteclair;
+			};
+			name = Debug;
+		};
+		3F1AEB09204EC49B008960E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXB78HG89C;
+				INFOPLIST_FILE = PorteclairUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Porteclair.PorteclairUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Porteclair;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1AEAD1204EC49A008960E3 /* Build configuration list for PBXProject "Porteclair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1AEAFF204EC49B008960E3 /* Debug */,
+				3F1AEB00204EC49B008960E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1AEB01204EC49B008960E3 /* Build configuration list for PBXNativeTarget "Porteclair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1AEB02204EC49B008960E3 /* Debug */,
+				3F1AEB03204EC49B008960E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1AEB04204EC49B008960E3 /* Build configuration list for PBXNativeTarget "PorteclairTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1AEB05204EC49B008960E3 /* Debug */,
+				3F1AEB06204EC49B008960E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1AEB07204EC49B008960E3 /* Build configuration list for PBXNativeTarget "PorteclairUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1AEB08204EC49B008960E3 /* Debug */,
+				3F1AEB09204EC49B008960E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F1AEAE0204EC49A008960E3 /* Porteclair.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F1AEAE1204EC49A008960E3 /* Porteclair.xcdatamodel */,
+			);
+			currentVersion = 3F1AEAE1204EC49A008960E3 /* Porteclair.xcdatamodel */;
+			path = Porteclair.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F1AEACE204EC49A008960E3 /* Project object */;
+}
