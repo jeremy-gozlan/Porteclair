@@ -1,0 +1,6 @@
+framework module Pods_PorteclairTests {
+  umbrella header "Pods-PorteclairTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

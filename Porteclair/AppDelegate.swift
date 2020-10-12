@@ -4,21 +4,55 @@
 //
 //  Created by Jeremy on 06/03/2018.
 //  Copyright © 2018 Jeremy. All rights reserved.
-//
+//  
 
 import UIKit
 import CoreData
+import CoreLocation
+import Firebase
+import UserNotifications
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+   
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
+        let storage = Storage.storage()
+        let db = Firestore.firestore()
+        let storageRef = storage.reference()
+        let settings = FirestoreSettings()
+        settings.isPersistenceEnabled = true
+        db.settings = settings
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert,.badge,.sound], completionHandler: {granted,error in print("granted")})
         // Override point for customization after application launch.
+        UIApplication.shared.statusBarStyle = .lightContent
+        UIApplication.shared.setMinimumBackgroundFetchInterval(UIApplicationBackgroundFetchIntervalMinimum)
         return true
     }
+    
+    func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        print("lol")
+        if let tabBarController = window?.rootViewController as? UINavigationController {
+            let viewControllers = tabBarController.viewControllers
+            for viewController in viewControllers {
+                if let mainViewController = viewController as? ViewController {
+                mainViewController.fetch {
+                    mainViewController.triggerNotificationInCaseOfLightning()
+                    completionHandler(.noData)
+                }
+            }
+
+            }
+        }
+        
+    }
+        
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

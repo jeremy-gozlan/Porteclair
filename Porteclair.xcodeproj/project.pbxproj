@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CD26DEABFEEBB71B04DE6A9 /* Pods_Porteclair.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095991AED4B5ED24B2154925 /* Pods_Porteclair.framework */; };
+		0FE433DE4C89C3AEA3CEFA43 /* Pods_PorteclairTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C320995E821266C867E2E0 /* Pods_PorteclairTests.framework */; };
+		3F19AC0F20552E1F00DF12B3 /* lightningGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F19AC0E20552E1F00DF12B3 /* lightningGif.gif */; };
+		3F19AC1120552FCF00DF12B3 /* lightningGif2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F19AC1020552FCF00DF12B3 /* lightningGif2.gif */; };
+		3F19AC132055301A00DF12B3 /* lightningGif3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F19AC122055301A00DF12B3 /* lightningGif3.gif */; };
+		3F19AC15205543B000DF12B3 /* LFTPulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19AC14205543B000DF12B3 /* LFTPulseAnimation.swift */; };
 		3F1AEADA204EC49A008960E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AEAD9204EC49A008960E3 /* AppDelegate.swift */; };
 		3F1AEADC204EC49A008960E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AEADB204EC49A008960E3 /* ViewController.swift */; };
 		3F1AEADF204EC49A008960E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1AEADD204EC49A008960E3 /* Main.storyboard */; };
 		3F1AEAE2204EC49A008960E3 /* Porteclair.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AEAE0204EC49A008960E3 /* Porteclair.xcdatamodeld */; };
-		3F1AEAE4204EC49A008960E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1AEAE3204EC49A008960E3 /* Assets.xcassets */; };
 		3F1AEAE7204EC49A008960E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1AEAE5204EC49A008960E3 /* LaunchScreen.storyboard */; };
 		3F1AEAF2204EC49B008960E3 /* PorteclairTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AEAF1204EC49B008960E3 /* PorteclairTests.swift */; };
 		3F1AEAFD204EC49B008960E3 /* PorteclairUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AEAFC204EC49B008960E3 /* PorteclairUITests.swift */; };
+		3F1DE7FA205C36C7002B3CA1 /* lightningGif4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F1DE7F9205C36C6002B3CA1 /* lightningGif4.gif */; };
+		3F1DE7FC205C3797002B3CA1 /* antennaGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F1DE7FB205C3796002B3CA1 /* antennaGif.gif */; };
+		3F1DE7FE205C388E002B3CA1 /* batteryGif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F1DE7FD205C388E002B3CA1 /* batteryGif1.gif */; };
+		3F3590982072426800E4630C /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3590972072426800E4630C /* images.xcassets */; };
+		3F35909A20726B6B00E4630C /* logSnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F35909920726B6B00E4630C /* logSnapshotView.swift */; };
+		3F5F071320573C8300456FC9 /* coreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F071220573C8300456FC9 /* coreDataModel.swift */; };
+		3F686D5F2052F5E5008F3A40 /* historyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F686D5E2052F5E5008F3A40 /* historyViewController.swift */; };
+		3F688940205687AD00A4AC17 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F68893F205687AD00A4AC17 /* loginViewController.swift */; };
+		3F8B7BA92058582000B850E4 /* SnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B7BA82058582000B850E4 /* SnapshotView.swift */; };
+		3F9947F520DB936B00686D6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F9947F420DB936B00686D6E /* GoogleService-Info.plist */; };
+		3FA97AC12051919500CB2310 /* SensorAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA97AC02051919500CB2310 /* SensorAnnotation.swift */; };
+		3FC6E48D20603CB90040EAC8 /* Reachibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6E48C20603CB90040EAC8 /* Reachibility.swift */; };
+		3FD6460F205ACA5C0087A9A1 /* olfHisoty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD6460E205ACA5C0087A9A1 /* olfHisoty.swift */; };
+		6A8A905875984DFAB78E7704 /* Pods_PorteclairUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517ED45D3BBC1B9B9E1A4A9A /* Pods_PorteclairUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +54,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		095991AED4B5ED24B2154925 /* Pods_Porteclair.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Porteclair.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F19AC0E20552E1F00DF12B3 /* lightningGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = lightningGif.gif; path = ../../lightningGif.gif; sourceTree = "<group>"; };
+		3F19AC1020552FCF00DF12B3 /* lightningGif2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = lightningGif2.gif; path = ../../lightningGif2.gif; sourceTree = "<group>"; };
+		3F19AC122055301A00DF12B3 /* lightningGif3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = lightningGif3.gif; path = ../../lightningGif3.gif; sourceTree = "<group>"; };
+		3F19AC14205543B000DF12B3 /* LFTPulseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFTPulseAnimation.swift; sourceTree = "<group>"; };
 		3F1AEAD6204EC49A008960E3 /* Porteclair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Porteclair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1AEAD9204EC49A008960E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F1AEADB204EC49A008960E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F1AEADE204EC49A008960E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F1AEAE1204EC49A008960E3 /* Porteclair.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Porteclair.xcdatamodel; sourceTree = "<group>"; };
-		3F1AEAE3204EC49A008960E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1AEAE6204EC49A008960E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F1AEAE8204EC49A008960E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F1AEAED204EC49B008960E3 /* PorteclairTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PorteclairTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +72,27 @@
 		3F1AEAF8204EC49B008960E3 /* PorteclairUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PorteclairUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1AEAFC204EC49B008960E3 /* PorteclairUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorteclairUITests.swift; sourceTree = "<group>"; };
 		3F1AEAFE204EC49B008960E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1DE7F9205C36C6002B3CA1 /* lightningGif4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lightningGif4.gif; sourceTree = SOURCE_ROOT; };
+		3F1DE7FB205C3796002B3CA1 /* antennaGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = antennaGif.gif; sourceTree = SOURCE_ROOT; };
+		3F1DE7FD205C388E002B3CA1 /* batteryGif1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = batteryGif1.gif; sourceTree = SOURCE_ROOT; };
+		3F3590972072426800E4630C /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		3F35909920726B6B00E4630C /* logSnapshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logSnapshotView.swift; sourceTree = "<group>"; };
+		3F5F071220573C8300456FC9 /* coreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataModel.swift; sourceTree = "<group>"; };
+		3F686D5E2052F5E5008F3A40 /* historyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyViewController.swift; sourceTree = "<group>"; };
+		3F68893F205687AD00A4AC17 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		3F8B7BA82058582000B850E4 /* SnapshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotView.swift; sourceTree = "<group>"; };
+		3F9947F420DB936B00686D6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FA97AC02051919500CB2310 /* SensorAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorAnnotation.swift; sourceTree = "<group>"; };
+		3FC6E48C20603CB90040EAC8 /* Reachibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachibility.swift; sourceTree = "<group>"; };
+		3FD6460E205ACA5C0087A9A1 /* olfHisoty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = olfHisoty.swift; sourceTree = "<group>"; };
+		46AD3BA6779DB857526B0D8B /* Pods-Porteclair.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Porteclair.release.xcconfig"; path = "Pods/Target Support Files/Pods-Porteclair/Pods-Porteclair.release.xcconfig"; sourceTree = "<group>"; };
+		4EF92EEB13E48206E8312603 /* Pods-Porteclair.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Porteclair.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Porteclair/Pods-Porteclair.debug.xcconfig"; sourceTree = "<group>"; };
+		517ED45D3BBC1B9B9E1A4A9A /* Pods_PorteclairUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PorteclairUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C320995E821266C867E2E0 /* Pods_PorteclairTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PorteclairTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC1CFE4DB7E64C5D6C9CD20 /* Pods-PorteclairTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorteclairTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PorteclairTests/Pods-PorteclairTests.release.xcconfig"; sourceTree = "<group>"; };
+		64BA862AB38BE8C6CEBF576D /* Pods-PorteclairUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorteclairUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PorteclairUITests/Pods-PorteclairUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		97CB9C3C753CF342C24CAD40 /* Pods-PorteclairUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorteclairUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PorteclairUITests/Pods-PorteclairUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C3C8530FDA52155355375E1 /* Pods-PorteclairTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PorteclairTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PorteclairTests/Pods-PorteclairTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD26DEABFEEBB71B04DE6A9 /* Pods_Porteclair.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE433DE4C89C3AEA3CEFA43 /* Pods_PorteclairTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +116,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A8A905875984DFAB78E7704 /* Pods_PorteclairUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D55007707EBE2242BF68684 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EF92EEB13E48206E8312603 /* Pods-Porteclair.debug.xcconfig */,
+				46AD3BA6779DB857526B0D8B /* Pods-Porteclair.release.xcconfig */,
+				9C3C8530FDA52155355375E1 /* Pods-PorteclairTests.debug.xcconfig */,
+				5EC1CFE4DB7E64C5D6C9CD20 /* Pods-PorteclairTests.release.xcconfig */,
+				64BA862AB38BE8C6CEBF576D /* Pods-PorteclairUITests.debug.xcconfig */,
+				97CB9C3C753CF342C24CAD40 /* Pods-PorteclairUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		31F05E42CEA86CA3582FC447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				095991AED4B5ED24B2154925 /* Pods_Porteclair.framework */,
+				52C320995E821266C867E2E0 /* Pods_PorteclairTests.framework */,
+				517ED45D3BBC1B9B9E1A4A9A /* Pods_PorteclairUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3F1AEACD204EC49A008960E3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +153,8 @@
 				3F1AEAF0204EC49B008960E3 /* PorteclairTests */,
 				3F1AEAFB204EC49B008960E3 /* PorteclairUITests */,
 				3F1AEAD7204EC49A008960E3 /* Products */,
+				0D55007707EBE2242BF68684 /* Pods */,
+				31F05E42CEA86CA3582FC447 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +171,29 @@
 		3F1AEAD8204EC49A008960E3 /* Porteclair */ = {
 			isa = PBXGroup;
 			children = (
+				3F9947F420DB936B00686D6E /* GoogleService-Info.plist */,
 				3F1AEAD9204EC49A008960E3 /* AppDelegate.swift */,
 				3F1AEADB204EC49A008960E3 /* ViewController.swift */,
 				3F1AEADD204EC49A008960E3 /* Main.storyboard */,
-				3F1AEAE3204EC49A008960E3 /* Assets.xcassets */,
 				3F1AEAE5204EC49A008960E3 /* LaunchScreen.storyboard */,
 				3F1AEAE8204EC49A008960E3 /* Info.plist */,
 				3F1AEAE0204EC49A008960E3 /* Porteclair.xcdatamodeld */,
+				3FA97AC02051919500CB2310 /* SensorAnnotation.swift */,
+				3F686D5E2052F5E5008F3A40 /* historyViewController.swift */,
+				3F19AC0E20552E1F00DF12B3 /* lightningGif.gif */,
+				3F19AC1020552FCF00DF12B3 /* lightningGif2.gif */,
+				3F19AC122055301A00DF12B3 /* lightningGif3.gif */,
+				3F1DE7F9205C36C6002B3CA1 /* lightningGif4.gif */,
+				3F1DE7FB205C3796002B3CA1 /* antennaGif.gif */,
+				3F1DE7FD205C388E002B3CA1 /* batteryGif1.gif */,
+				3F19AC14205543B000DF12B3 /* LFTPulseAnimation.swift */,
+				3F68893F205687AD00A4AC17 /* loginViewController.swift */,
+				3F5F071220573C8300456FC9 /* coreDataModel.swift */,
+				3F8B7BA82058582000B850E4 /* SnapshotView.swift */,
+				3FD6460E205ACA5C0087A9A1 /* olfHisoty.swift */,
+				3FC6E48C20603CB90040EAC8 /* Reachibility.swift */,
+				3F3590972072426800E4630C /* images.xcassets */,
+				3F35909920726B6B00E4630C /* logSnapshotView.swift */,
 			);
 			path = Porteclair;
 			sourceTree = "<group>";
@@ -135,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F1AEB01204EC49B008960E3 /* Build configuration list for PBXNativeTarget "Porteclair" */;
 			buildPhases = (
+				9518178BB77DDC479C617C5E /* [CP] Check Pods Manifest.lock */,
 				3F1AEAD2204EC49A008960E3 /* Sources */,
 				3F1AEAD3204EC49A008960E3 /* Frameworks */,
 				3F1AEAD4204EC49A008960E3 /* Resources */,
+				DA76D255856F40152F696EC1 /* [CP] Embed Pods Frameworks */,
+				A3B54E6E5DACF808BABFF7B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F1AEB04204EC49B008960E3 /* Build configuration list for PBXNativeTarget "PorteclairTests" */;
 			buildPhases = (
+				841732DFB58FF11B8C878765 /* [CP] Check Pods Manifest.lock */,
 				3F1AEAE9204EC49B008960E3 /* Sources */,
 				3F1AEAEA204EC49B008960E3 /* Frameworks */,
 				3F1AEAEB204EC49B008960E3 /* Resources */,
+				7BB81AA7E854FC7E226BE93F /* [CP] Embed Pods Frameworks */,
+				BDE7A4020FF86F1612D4828C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F1AEB07204EC49B008960E3 /* Build configuration list for PBXNativeTarget "PorteclairUITests" */;
 			buildPhases = (
+				04A5781A24F6AE5F3FA05B9A /* [CP] Check Pods Manifest.lock */,
 				3F1AEAF4204EC49B008960E3 /* Sources */,
 				3F1AEAF5204EC49B008960E3 /* Frameworks */,
 				3F1AEAF6204EC49B008960E3 /* Resources */,
+				57D20831181E939FE4D3809D /* [CP] Embed Pods Frameworks */,
+				4CA6D75847D8570B2860EEC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +294,11 @@
 					3F1AEAD5204EC49A008960E3 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					3F1AEAEC204EC49B008960E3 = {
 						CreatedOnToolsVersion = 9.2;
@@ -235,9 +337,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9947F520DB936B00686D6E /* GoogleService-Info.plist in Resources */,
 				3F1AEAE7204EC49A008960E3 /* LaunchScreen.storyboard in Resources */,
-				3F1AEAE4204EC49A008960E3 /* Assets.xcassets in Resources */,
+				3F1DE7FA205C36C7002B3CA1 /* lightningGif4.gif in Resources */,
+				3F19AC0F20552E1F00DF12B3 /* lightningGif.gif in Resources */,
 				3F1AEADF204EC49A008960E3 /* Main.storyboard in Resources */,
+				3F1DE7FC205C3797002B3CA1 /* antennaGif.gif in Resources */,
+				3F19AC1120552FCF00DF12B3 /* lightningGif2.gif in Resources */,
+				3F19AC132055301A00DF12B3 /* lightningGif3.gif in Resources */,
+				3F1DE7FE205C388E002B3CA1 /* batteryGif1.gif in Resources */,
+				3F3590982072426800E4630C /* images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +366,206 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04A5781A24F6AE5F3FA05B9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PorteclairUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CA6D75847D8570B2860EEC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PorteclairUITests/Pods-PorteclairUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57D20831181E939FE4D3809D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PorteclairUITests/Pods-PorteclairUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BB81AA7E854FC7E226BE93F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PorteclairTests/Pods-PorteclairTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		841732DFB58FF11B8C878765 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PorteclairTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9518178BB77DDC479C617C5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Porteclair-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B54E6E5DACF808BABFF7B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Porteclair/Pods-Porteclair-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Porteclair/Pods-Porteclair-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDE7A4020FF86F1612D4828C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PorteclairTests/Pods-PorteclairTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA76D255856F40152F696EC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Porteclair/Pods-Porteclair-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Porteclair/Pods-Porteclair-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F1AEAD2204EC49A008960E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F688940205687AD00A4AC17 /* loginViewController.swift in Sources */,
+				3FC6E48D20603CB90040EAC8 /* Reachibility.swift in Sources */,
 				3F1AEADC204EC49A008960E3 /* ViewController.swift in Sources */,
+				3F5F071320573C8300456FC9 /* coreDataModel.swift in Sources */,
+				3F8B7BA92058582000B850E4 /* SnapshotView.swift in Sources */,
 				3F1AEAE2204EC49A008960E3 /* Porteclair.xcdatamodeld in Sources */,
+				3FA97AC12051919500CB2310 /* SensorAnnotation.swift in Sources */,
+				3F19AC15205543B000DF12B3 /* LFTPulseAnimation.swift in Sources */,
+				3FD6460F205ACA5C0087A9A1 /* olfHisoty.swift in Sources */,
+				3F35909A20726B6B00E4630C /* logSnapshotView.swift in Sources */,
 				3F1AEADA204EC49A008960E3 /* AppDelegate.swift in Sources */,
+				3F686D5F2052F5E5008F3A40 /* historyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,14 +729,18 @@
 		};
 		3F1AEB02204EC49B008960E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF92EEB13E48206E8312603 /* Pods-Porteclair.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YXB78HG89C;
 				INFOPLIST_FILE = Porteclair/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Porteclair.Porteclair;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = none;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,14 +748,18 @@
 		};
 		3F1AEB03204EC49B008960E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46AD3BA6779DB857526B0D8B /* Pods-Porteclair.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YXB78HG89C;
 				INFOPLIST_FILE = Porteclair/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Porteclair.Porteclair;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = none;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +767,7 @@
 		};
 		3F1AEB05204EC49B008960E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3C8530FDA52155355375E1 /* Pods-PorteclairTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +785,7 @@
 		};
 		3F1AEB06204EC49B008960E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC1CFE4DB7E64C5D6C9CD20 /* Pods-PorteclairTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +803,7 @@
 		};
 		3F1AEB08204EC49B008960E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64BA862AB38BE8C6CEBF576D /* Pods-PorteclairUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +820,7 @@
 		};
 		3F1AEB09204EC49B008960E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97CB9C3C753CF342C24CAD40 /* Pods-PorteclairUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
